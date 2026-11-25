@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/news-image-20261125/qijun8240/makefun-news-image-20261125/rank.svg)](https://make.fun/bounty/news-image-20261125/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261125)
 [![reward](https://make.fun/badge/news-image-20261125/qijun8240/makefun-news-image-20261125/reward.svg)](https://make.fun/bounty/news-image-20261125?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261125)
 
-One image summing up the world's news of Wednesday 25 November 2026: a newspaper front page with the day's nine biggest stories, from the Strait of Hormuz tanker mines to the COP31 talks ending without a deal. `main.ts` (Node 22, standard library only) copies the pre-rendered `entry.png` to `/output/entry.png` after checking it is a PNG of at most 1 MiB and 1024x1024 pixels; `render.py` draws the image with PIL.
+One image summing up the world's news of Wednesday 25 November 2026: a newspaper front page with the day's nine biggest stories, from the Strait of Hormuz tanker mines to the COP31 talks ending without a deal. `main.ts` (Node 22, standard library only) copies the submitted `entry.png` to `/output/entry.png` after checking it is a PNG of at most 1 MiB and 1024x1024 pixels; `render.py` is an earlier PIL draft generator for the same layout.
 
 ## Run it
 
